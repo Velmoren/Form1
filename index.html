@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="step_2.css">
+	<title>Step_2</title>
+</head>
+<body>
+	<section id="main">
+		<conteiner>
+			<form id="main_form">
+				<h2>Введите данные</h2>	
+				<span>Имя</span>
+				<input type="text" name="name" id="name" placeholder="Иван">
+				<span>Фамилия</span>
+				<input type="text" name="surname" id="surname" placeholder="Иванов">
+				<span>Пол</span>
+				<div id="sex_radio">
+				<input type="radio" name="sexName" id="man" value="Муж" checked>Муж<br>
+				<input type="radio" name="sexName" id="woman" value="Жен">Жен
+				</div>
+				<input type="date" name="date" id="date">
+				<input type="button" id="button" value="СОХРАНИТЬ">
+			</form>
+		</conteiner>
+	</section>
+	<section id="infoExit">
+		<conteiner>
+			<div id="card">
+				<span id="nameExit">
+				</span>
+				<span id="surnameExit">
+				</span>
+				<span id="sexExit">
+				</span>
+				<span id="dateExit">
+				</span>
+			</div>
+		</conteiner>
+	</section>
+	<script type="text/javascript" src="step_2.js"></script>
+</body>
+</html>

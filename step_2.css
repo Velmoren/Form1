@@ -1,0 +1,40 @@
+#main {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+#main_form 	{
+	display: flex;
+	flex-direction: column;
+	border: 5px solid #ffc;
+	outline: 6px solid #888;
+	padding: 20px;
+	background-color: #e6fffa;
+	font-family: Georgia
+}
+#infoExit {
+	border:5px solid #ffc;
+	outline: 6px solid #888;
+	width: 300px;
+	height: 150px; 
+}
+#card {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: left;
+	font-size: 20px;
+	background-color: #e6fffa;
+
+}
+h2 {
+	font-family: Georgia;
+}
+input {
+	margin-bottom: 10px;
+}
+form>div {
+	margin-bottom: 10px;
+}
